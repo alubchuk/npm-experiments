@@ -1,6 +1,6 @@
 {
   "name": "learn-npm",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Learn NPM tool",
   "main": "index.js",
   "scripts": {
@@ -38,8 +38,8 @@
     "test:deploy": "npm t -- -R dot"
   },
   "engines": {
-      "node": "~5.4.1",
-      "npm": "~3.7.3"
+    "node": "~5.4.1",
+    "npm": "~3.7.3"
   },
   "jshintConfig": {
     "esnext": "true",
