@@ -1,6 +1,6 @@
 {
   "name": "learn-npm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Learn NPM tool",
   "main": "index.js",
   "scripts": {
@@ -58,8 +58,8 @@
     "watchify": "^3.7.0"
   },
   "repository": {
-      "type": "git",
-      "url": "."
+    "type": "git",
+    "url": "."
   },
   "dependencies": {
     "koa": "^1.1.2"
