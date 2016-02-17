@@ -36,7 +36,9 @@
     "launch:prod": "heroku open",
     "push": "npm run push:origin && npm run push:heroku",
     "deploy:prod": "npm run test:deploy -s && npm run build -s && npm run version:patch && npm run push && npm run launch:prod",
-    "test:deploy": "npm t -- -R dot"
+    "deploy:prod:time": "time(npm run deploy:prod)",
+    "test:deploy": "npm t -- -R dot",
+    "deploy:prod:script": "bash ./deployProd.sh"
   },
   "engines": {
     "node": "~5.4.1",
