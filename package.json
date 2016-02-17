@@ -31,7 +31,12 @@
     "version:major": "npm version major",
     "version:minor": "npm version minor",
     "version:patch": "npm version patch",
-    "push:origin": "git push --tags origin HEAD:master"
+    "push:origin": "git push --tags origin HEAD:master",
+    "push:heroku": "git push heroku master"
+  },
+  "engines": {
+      "node": "~5.4.1",
+      "npm": "~3.7.3"
   },
   "jshintConfig": {
     "esnext": "true",
@@ -60,7 +65,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "."
+    "url": "https://git.heroku.com/learn-npm.git"
   },
   "dependencies": {
     "koa": "^1.1.2"
